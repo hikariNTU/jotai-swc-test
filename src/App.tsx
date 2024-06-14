@@ -1,4 +1,5 @@
 import { yieldAtoms, yieldAtomsButUsingConstFunction } from "./jotai-generator";
+import { StrangeAssignment } from "./strange-assignment";
 
 function App() {
   const a = yieldAtoms();
@@ -25,9 +26,11 @@ function App() {
     <div>
       <h2>Bug yield atoms</h2>
       <pre>{JSON.stringify(result, undefined, 2)}</pre>
-
       <h2>const function yield atoms</h2>
       <pre>{JSON.stringify(resultExpected, undefined, 2)}</pre>
+
+      <h2>Strange Assignment</h2>
+      <StrangeAssignment />
     </div>
   );
 }
