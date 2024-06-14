@@ -20,6 +20,10 @@ Open http://localhost:5713
 
 Disable the plugin in `vite.config.ts`.
 
+## Screenshot
+
+![image](https://github.com/hikariNTU/jotai-swc-test/assets/18393696/71d50f14-9a08-4188-84e6-85063e8cb8bf)
+
 ## Original Issue Descriptions
 
 We are using `jotai-swc` in next.js 14 with the swc plugin enabled and encounter the following issue:
