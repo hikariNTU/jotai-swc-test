@@ -1,3 +1,9 @@
+# The Issue Has Been Fixed
+
+https://github.com/pmndrs/swc-jotai/issues/25#issuecomment-2326334982
+
+By upgrading `"@swc-jotai/react-refresh": "^0.2.0"`, the issue no longer exist
+
 # React + TypeScript + Vite + SWC + Jotai
 
 A minimal Reproduction for [swc-jotai duplicate variable issue](https://github.com/pmndrs/swc-jotai/issues/25)
